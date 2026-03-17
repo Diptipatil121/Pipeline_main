@@ -30,7 +30,7 @@ def build_url(env_key: str, path: str) -> str:
 SCRAPE_API = build_url("SCRAPE_API", "api/v1/scrape")
 PREPROCESS_API = build_url("PREPROCESS_API", "api/v1/preprocess")
 COREF_API = build_url("COREF_API", "api/v1/coref")
-BIAS_API = build_url("BIAS_API", "api/v1/inference")
+BIAS_API = build_url("BIAS_API", "api/v1/bias/inference")
 
 ##SCRAPE_API= "http://localhost:8001/api/v1/scrape"
 ##PREPROCESS_API="http://localhost:8002/api/v1/preprocess"
